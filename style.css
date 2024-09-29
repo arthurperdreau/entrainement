@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.formulaire{
+    background-color: grey;
+    text-decoration: white;
+    border: 3px solid black;
+    height: 25vh;
+}
+.texte{
+    color: yellow;
+}
+.catalogue{
+    display: flex;
+    border: 3px solid black;
+    height: 75vh;
+
+
+}
+.maison1{
+    background-image: url("../image/M1.jpeg");
+
+}
+.maison2{
+    background-image: url("../image/M2.jpeg");
+
+}
+.maison3{
+    background-image: url("../image/M3.jpeg");
+
+}
+.maison4{
+    background-image: url("../image/M4.jpeg");
+
+}
+.NM{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-content: center;
+    color: white;
+    text-transform: bolder;
+    text-transform: uppercase;
+    flex:1;
+
+}
